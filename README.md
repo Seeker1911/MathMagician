@@ -16,15 +16,17 @@ Write your unit tests to reflect what classes, methods, and I/O is expected for 
 ### Step 2
 
 Your program will have one class with a **minimum** of three methods on it:
+Each method should also accept an argument that determines how many times the function should output a number.
 
-1. `print_integers(self)`
-1. `print_fibonacci(self)`
-1. `print_primes(self)`
+1. `print_integers(self, number_to_output)`
+2. `print_fibonacci(self, number_to_output)`
+3. `print_primes(self, number_to_output)`
 
 Write unit tests that will verify the output of each method. Do not write any implementation code until you have a unit test for each method that fails.
 
 ### Step 3
-
+Build menu, make last option '4. Quit Program'
+Write basic code to terminate the program on key press, displays prompt to user, and listens for a key press.
 Create a simple implementation of a console application that displays a prompt to the user, and listens for a key press.
 
 1. Use `print()` to output the message `Press any key to exit`.
